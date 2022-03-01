@@ -1,0 +1,6 @@
+.input-error-message {
+  bottom: 0;
+  color: red;
+  font-size: 15px;
+  position: absolute;
+}

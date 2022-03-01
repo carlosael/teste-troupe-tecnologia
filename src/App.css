@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  align-items: center;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+
+input {
+  all: unset;
+  border: 2px solid #3cce10;
+  border-radius: 8px;
+  color: #abafb4;
+  padding: 8px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.error {
+  border: 2px solid red;
+}

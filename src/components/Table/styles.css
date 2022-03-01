@@ -1,0 +1,72 @@
+.table-head {
+  align-items: center;
+  background: #f4f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  display: flex;
+  font-weight: bold;
+  height: 46px;
+  margin-top: 20px;
+  text-align: left;
+  padding: 0 24px;
+}
+
+.table-head span {
+  width: 20%;
+}
+
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-line {
+  align-items: center;
+  background: #fffafa;
+  display: flex;
+  height: 46px;
+  margin-bottom: 8px;
+  padding: 0 24px;
+  position: relative;
+  text-align: left;
+}
+
+.table-line span {
+  overflow: hidden;
+  width: 20%;
+}
+
+.order-icon {
+  cursor: pointer;
+  display: flex;
+  width: 20%;
+}
+
+.edit-delete-icons {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.search-icon {
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons img {
+  height: 16px;
+}

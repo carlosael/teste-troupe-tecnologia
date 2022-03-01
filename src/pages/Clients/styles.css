@@ -1,0 +1,21 @@
+header {
+  background-color: #134563;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  padding: 10px 10%;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.second-card {
+  padding: 5% 20%;
+}
+
+.btn-logout {
+  all: unset;
+}
