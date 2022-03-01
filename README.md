@@ -43,24 +43,24 @@ E depois:
 ````sh
   # Iniciar o json-server na raíz do projeto
   $ yarn global add json-server
-  # O json-server na raíz do projeto, ele criará um arquivo `db.json`
+  # O json-server na raíz do projeto, ele criará um arquivo db.json
   # Apague o conteúdo do arquivo e cole o seguinte
-  ```js
-  {
-    "usuarios": [
-      {
-        "email":"teste@emaill.com.br",
-        "password": "123456",
-        "token": "token"
-      }
-    ]
-  },
-  {
-    "clientes": []
-  }
+  
+    {
+      "usuarios": [
+        {
+          "email":"teste@emaill.com.br",
+          "password": "123456",
+          "token": "token"
+        }
+      ]
+    },
+    {
+      "clientes": []
+    }
+    
 ````
 
-````
 
 2. Iniciando o front-end:
 
